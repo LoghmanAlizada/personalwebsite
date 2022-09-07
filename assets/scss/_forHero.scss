@@ -1,0 +1,54 @@
+.hero{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    .sideaccount{
+        display: inline-block;
+        margin-left: 4rem;
+        margin-right: -4rem;
+        height: 180px;
+        a{
+            text-decoration: none;
+            display: block;
+            margin-top: 1.6rem;
+            i{
+                color: white;
+                font-size: 23px;
+                transition: .6s;
+            }
+            
+            &:hover{
+                i{
+                    transition-duration: .6s;
+                    color: red;
+                    transform: translateX(10px);
+                }
+            }
+        }
+    }
+
+    .forhero{
+        text-align: center;
+        span{
+            color: grey;
+            font-size: 11px;
+            letter-spacing: 3px;
+            font-family: 'Jost', sans-serif;
+            font-weight: 600;
+        }
+        h1{
+            color: white;
+            letter-spacing: 2px;
+            font-family: 'Bebas Neue', cursive;
+            margin-top: 1rem;
+        }
+        #underline{
+            color: red;
+            letter-spacing: 2px;
+            text-decoration: line-through;
+            margin-top: -1rem;
+        }
+    }
+}

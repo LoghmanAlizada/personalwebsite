@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.hero {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.hero .sideaccount {
+  display: inline-block;
+  margin-left: 4rem;
+  margin-right: -4rem;
+  height: 180px;
+}
+.hero .sideaccount a {
+  text-decoration: none;
+  display: block;
+  margin-top: 1.6rem;
+}
+.hero .sideaccount a i {
+  color: white;
+  font-size: 23px;
+  transition: 0.6s;
+}
+.hero .sideaccount a:hover i {
+  transition-duration: 0.6s;
+  color: red;
+  transform: translateX(10px);
+}
+.hero .forhero {
+  text-align: center;
+}
+.hero .forhero span {
+  color: grey;
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+.hero .forhero h1 {
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 1rem;
+}
+.hero .forhero #underline {
+  color: red;
+  letter-spacing: 2px;
+  text-decoration: line-through;
+  margin-top: -1rem;
+}
+
+.portfolio {
+  height: 100vh;
+  align-items: center;
+  padding-top: 4rem;
+  background-color: black;
+  border-top: 2px solid red;
+}
+.portfolio .container .sectionTitle {
+  text-align: center;
+  margin-bottom: 9rem;
+}
+.portfolio .container .sectionTitle span {
+  color: grey;
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+.portfolio .container .sectionTitle h1 {
+  color: white;
+  letter-spacing: 4px;
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
+}
+.portfolio .container .row {
+  justify-content: space-around;
+}
+.portfolio .container .row #forCard {
+  border: 1px solid red;
+  width: 20rem;
+  height: 15rem;
+  border-radius: 10px;
+  transition: 1s;
+}/*# sourceMappingURL=main.css.map */
