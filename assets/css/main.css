@@ -5,7 +5,7 @@
 }
 
 *::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
+  display: none;
 }
 
 .hero {
@@ -58,37 +58,143 @@
   margin-top: -1rem;
 }
 
-.portfolio {
+.myWork {
   height: 100vh;
   align-items: center;
   padding-top: 4rem;
   background-color: black;
   border-top: 2px solid red;
 }
-.portfolio .container .sectionTitle {
+.myWork .container .sectionTitle {
   text-align: center;
   margin-bottom: 9rem;
 }
-.portfolio .container .sectionTitle span {
+.myWork .container .sectionTitle span {
   color: grey;
   font-size: 11px;
   letter-spacing: 3px;
   font-family: "Jost", sans-serif;
   font-weight: 600;
 }
-.portfolio .container .sectionTitle h1 {
+.myWork .container .sectionTitle h1 {
   color: white;
   letter-spacing: 4px;
   font-size: 50px;
   font-family: "Bebas Neue", cursive;
 }
-.portfolio .container .row {
+.myWork .container .row {
   justify-content: space-around;
 }
-.portfolio .container .row #forCard {
+.myWork .container .row #forCard {
   border: 1px solid red;
   width: 20rem;
   height: 15rem;
   border-radius: 10px;
   transition: 1s;
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.myWork .container .row #forCard h3 {
+  color: red;
+  letter-spacing: 2px;
+  font-family: "Bebas Neue", cursive;
+}
+.myWork .container .row #forCard p {
+  color: white;
+  letter-spacing: 1px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.aboutMe {
+  height: 100vh;
+  align-items: center;
+  padding-top: 4rem;
+  background-color: black;
+  border-top: 2px solid red;
+}
+.aboutMe .container .sectionTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.aboutMe .container .sectionTitle span {
+  color: grey;
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+.aboutMe .container .sectionTitle h1 {
+  color: white;
+  letter-spacing: 4px;
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
+}
+.aboutMe .row #forPhoto img {
+  max-width: 75%;
+  border: 2px solid red;
+}
+.aboutMe .row #forAbout p {
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Bebas Neue", cursive;
+}
+
+footer {
+  height: 30vh;
+  align-items: center;
+  padding-top: 4rem;
+  background-color: black;
+  border-top: 2px solid red;
+}
+footer .container {
+  margin-bottom: 4rem;
+}
+footer .container .row {
+  text-align: center;
+}
+footer .container .row #contact {
+  text-align: center;
+}
+footer .container .row #contact h5 {
+  letter-spacing: 2px;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+footer .container .row #contact span {
+  color: red;
+  letter-spacing: 2px;
+  font-family: "Jost", sans-serif;
+}
+footer .forEnd {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+footer .forEnd .copyright {
+  display: inline-block;
+}
+footer .forEnd .copyright span {
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Bebas Neue", cursive;
+}
+footer .forEnd .socialMedia {
+  display: inline-block;
+}
+footer .forEnd .socialMedia a {
+  text-decoration: none;
+}
+footer .forEnd .socialMedia a i {
+  color: white;
+  font-size: 20px;
+  margin-right: 1rem;
+  transition: all 0.5s;
+}
+footer .forEnd .socialMedia a i:hover {
+  color: red;
+  transition-duration: 0.5s;
 }/*# sourceMappingURL=main.css.map */

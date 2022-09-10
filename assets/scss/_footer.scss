@@ -1,0 +1,57 @@
+footer{
+    height: 30vh;
+    align-items: center;
+    padding-top: 4rem;
+    background-color: black;
+    border-top: 2px solid red;
+    .container{
+        margin-bottom: 4rem;
+        .row{
+            text-align: center;
+            #contact{
+                text-align: center;
+                h5{  
+                letter-spacing: 2px;
+                font-family: 'Bebas Neue', cursive;
+                color: white;
+                }
+                span{
+                    color: red;
+                    letter-spacing: 2px;
+                    font-family: 'Jost', sans-serif;
+                }
+            }
+        }
+    }
+    .forEnd{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        .copyright{
+            display: inline-block;
+            span{
+                color: white;
+                letter-spacing: 2px;
+                font-family: 'Bebas Neue', cursive;
+            }
+        }
+        .socialMedia{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                i{
+                    color: white;
+                    font-size: 20px;
+                    margin-right: 1rem;
+                    transition: all .5s;
+                    &:hover{
+                        color: red;
+                        transition-duration: .5s;
+                    }
+                }
+            }
+        }
+    }
+}
