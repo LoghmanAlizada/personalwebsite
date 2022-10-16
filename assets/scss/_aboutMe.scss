@@ -27,6 +27,7 @@
 
     .row{
         #forPhoto{
+            filter: brightness(70%);
             img{
                 max-width: 75%;
                 border: 2px solid red;
@@ -37,6 +38,32 @@
                 color: white;
                 letter-spacing: 2px;
                 font-family: 'Bebas Neue', cursive;
+            }
+            .foreducation{
+                h2{
+                    color: red;
+                    letter-spacing: 2px;
+                    font-family: 'Bebas Neue', cursive;
+                }
+                .myeducation{
+                    border-left: 1px solid red;
+                    padding-left: 1rem;
+                    :last-child{
+                        color: red;
+                        margin-top: -1rem;
+                    }
+                    h4{
+                    color: white;
+                    letter-spacing: 2px;
+                    font-family: 'Bebas Neue', cursive;
+                    display: inline-block;
+                    background-color: red;
+                    }
+                    p{
+                    color: white;
+                    letter-spacing: 2px;
+                    }
+                }
             }
         }
     }

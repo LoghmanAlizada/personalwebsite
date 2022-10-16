@@ -58,55 +58,6 @@
   margin-top: -1rem;
 }
 
-.myWork {
-  height: 100vh;
-  align-items: center;
-  padding-top: 4rem;
-  background-color: black;
-  border-top: 2px solid red;
-}
-.myWork .container .sectionTitle {
-  text-align: center;
-  margin-bottom: 9rem;
-}
-.myWork .container .sectionTitle span {
-  color: grey;
-  font-size: 11px;
-  letter-spacing: 3px;
-  font-family: "Jost", sans-serif;
-  font-weight: 600;
-}
-.myWork .container .sectionTitle h1 {
-  color: white;
-  letter-spacing: 4px;
-  font-size: 50px;
-  font-family: "Bebas Neue", cursive;
-}
-.myWork .container .row {
-  justify-content: space-around;
-}
-.myWork .container .row #forCard {
-  border: 1px solid red;
-  width: 20rem;
-  height: 15rem;
-  border-radius: 10px;
-  transition: 1s;
-  text-align: center;
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.myWork .container .row #forCard h3 {
-  color: red;
-  letter-spacing: 2px;
-  font-family: "Bebas Neue", cursive;
-}
-.myWork .container .row #forCard p {
-  color: white;
-  letter-spacing: 1px;
-  font-family: "Bebas Neue", cursive;
-}
-
 .aboutMe {
   height: 100vh;
   align-items: center;
@@ -131,6 +82,9 @@
   font-size: 50px;
   font-family: "Bebas Neue", cursive;
 }
+.aboutMe .row #forPhoto {
+  filter: brightness(70%);
+}
 .aboutMe .row #forPhoto img {
   max-width: 75%;
   border: 2px solid red;
@@ -139,6 +93,30 @@
   color: white;
   letter-spacing: 2px;
   font-family: "Bebas Neue", cursive;
+}
+.aboutMe .row #forAbout .foreducation h2 {
+  color: red;
+  letter-spacing: 2px;
+  font-family: "Bebas Neue", cursive;
+}
+.aboutMe .row #forAbout .foreducation .myeducation {
+  border-left: 1px solid red;
+  padding-left: 1rem;
+}
+.aboutMe .row #forAbout .foreducation .myeducation :last-child {
+  color: red;
+  margin-top: -1rem;
+}
+.aboutMe .row #forAbout .foreducation .myeducation h4 {
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Bebas Neue", cursive;
+  display: inline-block;
+  background-color: red;
+}
+.aboutMe .row #forAbout .foreducation .myeducation p {
+  color: white;
+  letter-spacing: 2px;
 }
 
 footer {
